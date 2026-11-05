@@ -100,7 +100,7 @@ public class Inventory {
      * @param sugar the new quantity of sugar to set
      */
     public void setSugar(int sugar) {
-        if (sugar >= 0) {
+        if (sugar > 0) {
             Inventory.sugar = sugar;
         } else {
             Inventory.sugar = 0;
