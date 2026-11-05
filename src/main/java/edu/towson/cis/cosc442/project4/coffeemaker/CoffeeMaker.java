@@ -177,7 +177,7 @@ public class CoffeeMaker {
      */
     public Recipe getRecipeForName(String name) {
         Recipe r = new Recipe();
-        for (int i = 0; i < NUM_RECIPES; i++) {
+        for (int i = 0; i <= NUM_RECIPES; i++) {
             if (recipeArray[i].getName() != null) {
                 if ((recipeArray[i].getName()).equals(name)) {
                     r = recipeArray[i];
